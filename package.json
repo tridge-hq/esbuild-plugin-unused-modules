@@ -1,0 +1,51 @@
+{
+  "name": "esbuild-plugin-unused",
+  "version": "1.0.0",
+  "description": "esbuild plugin for finding unused file list",
+  "main": "build/index.js",
+  "module": "build/index.mjs",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "build": "ts-node ./scripts/build.ts",
+    "build:types": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tridge-hq/esbuild-plugin-unused.git"
+  },
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "unused",
+    "file"
+  ],
+  "exports": {
+    "import": {
+      "default": "./build/index.mjs",
+      "types": "./build/index.d.ts"
+    },
+    "require": {
+      "default": "./build/index.js",
+      "types": "./build/index.d.ts"
+    }
+  },
+  "author": "Gihan Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tridge-hq/esbuild-plugin-unused/issues"
+  },
+  "homepage": "https://github.com/tridge-hq/esbuild-plugin-unused#readme",
+  "dependencies": {
+    "typescript": "^4.0.0"
+  },
+  "peerDependencies": {
+    "esbuild": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "ts-node": "^10.9.2"
+  }
+}

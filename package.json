@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-plugin-unused",
+  "name": "esbuild-plugin-unused-modules",
   "version": "1.0.0",
   "description": "esbuild plugin for finding unused file list",
   "main": "build/index.js",
@@ -14,12 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tridge-hq/esbuild-plugin-unused.git"
+    "url": "git+https://github.com/tridge-hq/esbuild-plugin-unused-modules.git"
   },
   "keywords": [
     "esbuild",
     "plugin",
     "unused",
+    "modules",
     "file"
   ],
   "exports": {
@@ -35,9 +36,9 @@
   "author": "Gihan Kim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tridge-hq/esbuild-plugin-unused/issues"
+    "url": "https://github.com/tridge-hq/esbuild-plugin-unused-modules/issues"
   },
-  "homepage": "https://github.com/tridge-hq/esbuild-plugin-unused#readme",
+  "homepage": "https://github.com/tridge-hq/esbuild-plugin-unused-modules#readme",
   "dependencies": {
     "typescript": "^4.0.0"
   },

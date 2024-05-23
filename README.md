@@ -1,4 +1,4 @@
-# esbuild-plugin-unused
+# esbuild-plugin-unused-modules
 esbuild plugin for extracting unused `module` file list.
 
 ## Installation
@@ -10,7 +10,7 @@ npm install -D esbuild-plugin-unused
 ```typescript
 import fs from 'fs';
 import { build } from 'esbuild';
-import extractUnusedFiles from 'esbuild-plugin-unused';
+import extractUnusedFiles from 'esbuild-plugin-unused-modules';
 
 build({
   ...options,

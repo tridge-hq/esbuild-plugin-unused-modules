@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-unused-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "esbuild plugin for finding unused file list",
   "main": "build/index.js",
   "module": "build/index.mjs",

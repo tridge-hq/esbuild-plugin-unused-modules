@@ -2,7 +2,7 @@ import path from 'path';
 import { build, Format } from 'esbuild';
 
 const filenameByFormat: Omit<Record<Format, string>, 'iife'> = {
-  cjs: 'index.js',
+  cjs: 'index.cjs',
   esm: 'index.mjs',
 };
 

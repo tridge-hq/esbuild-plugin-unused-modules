@@ -24,14 +24,8 @@
     "file"
   ],
   "exports": {
-    "import": {
-      "default": "./build/index.mjs",
-      "types": "./build/index.d.ts"
-    },
-    "require": {
-      "default": "./build/index.cjs",
-      "types": "./build/index.d.ts"
-    }
+    "import": "./build/index.mjs",
+    "require": "./build/index.cjs"
   },
   "author": "Gihan Kim",
   "license": "MIT",
